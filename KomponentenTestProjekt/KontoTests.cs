@@ -12,25 +12,11 @@ namespace KomponentenTestProjekt
             // Arrange
             int startguthaben = 100;
             
-            // act
+            // Act
             Konto k = new Konto(startguthaben);
 
-            //assert
-            try
-            {
-                Assert.IsTrue(erste.Guthaben >= 0);
-            }
-
-            catch
-            {
-                Assert.Fail("Konto kann mit negativem Wert angelegt werden.");
-            }
-
-
-
-
-
-
-}
+            // Assert
+            Assert.AreEqual(startguthaben, k.Guthaben);
+        }
     }
 }
