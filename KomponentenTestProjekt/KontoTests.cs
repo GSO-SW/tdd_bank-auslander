@@ -1,8 +1,9 @@
 using Bank;
+
 namespace KomponentenTestProjekt
 {
     [TestClass]
-    public class BankTest
+    public class KontoTests
     {
         [TestMethod]
         public void TestMethod1()
