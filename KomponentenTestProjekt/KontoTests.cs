@@ -10,10 +10,10 @@ namespace KomponentenTestProjekt
         {
             
             // Arrange
-            Konto erste;
-
+            int startguthaben = 100;
+            
             // act
-            erste = new Konto(-100);
+            Konto k = new Konto(startguthaben);
 
             //assert
             try
