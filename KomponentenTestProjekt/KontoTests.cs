@@ -6,7 +6,7 @@ namespace KomponentenTestProjekt
     public class KontoTests
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Konto_KannErstelltWerdenMitGuthaben()
         {
             
             // Arrange
